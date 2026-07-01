@@ -1,0 +1,102 @@
+/* ============================================================
+   Improov Homes — Color tokens
+   Palette pulled directly from the brand's rainbow "roof" mark.
+   White is the dominant background; color is used to highlight
+   graphic elements and key words so content pops.
+   ============================================================ */
+:root {
+  /* ---- Brand primaries ---- */
+  --color-cherry: #CB0C4F;   /* signature accent */
+  --color-blue:   #158BCF;
+  --color-green:  #1FB050;
+  --color-yellow: #FBB630;
+
+  /* ---- Brand secondaries ---- */
+  --color-orange: #F17030;
+  --color-purple: #6562A8;
+
+  /* ---- Mono ---- */
+  --color-white:  #FFFFFF;
+  --color-black:  #000000;
+
+  /* ---- Cherry ramp (signature) ---- */
+  --cherry-50:  #FCE7EE;
+  --cherry-100: #F8C2D5;
+  --cherry-300: #E8588B;
+  --cherry-500: #CB0C4F;
+  --cherry-600: #A60940;
+  --cherry-700: #7E0731;
+
+  /* ---- Blue ramp ---- */
+  --blue-50:  #E6F2FB;
+  --blue-100: #BFDDF3;
+  --blue-300: #5FB1E2;
+  --blue-500: #158BCF;
+  --blue-600: #0F6FA6;
+  --blue-700: #0B557F;
+
+  /* ---- Green ramp ---- */
+  --green-50:  #E7F7ED;
+  --green-100: #C2EBD0;
+  --green-300: #5FCB84;
+  --green-500: #1FB050;
+  --green-600: #198F41;
+  --green-700: #136B31;
+
+  /* ---- Yellow ramp ---- */
+  --yellow-50:  #FFF6E4;
+  --yellow-100: #FDE7B7;
+  --yellow-300: #FCCB66;
+  --yellow-500: #FBB630;
+  --yellow-600: #E09A12;
+  --yellow-700: #A8730D;
+
+  /* ---- Neutral ramp (anchored to the logo's navy ink) ---- */
+  --neutral-0:   #FFFFFF;
+  --neutral-50:  #F6F7F9;
+  --neutral-100: #ECEEF1;
+  --neutral-200: #DCE0E6;
+  --neutral-300: #C2C8D2;
+  --neutral-400: #97A0AE;
+  --neutral-500: #6B7585;
+  --neutral-600: #4C5666;
+  --neutral-700: #36404F;   /* logo ink */
+  --neutral-800: #232C39;
+  --neutral-900: #141A23;
+
+  /* ============================================================
+     Semantic aliases
+     ============================================================ */
+  --brand:            var(--color-cherry);
+  --brand-strong:     var(--cherry-600);
+  --brand-soft:       var(--cherry-50);
+
+  --bg-page:          var(--neutral-0);
+  --bg-subtle:        var(--neutral-50);
+  --bg-muted:         var(--neutral-100);
+  --surface-card:     var(--neutral-0);
+  --surface-inverse:  var(--neutral-800);
+
+  --text-strong:      var(--neutral-800);
+  --text-body:        var(--neutral-700);
+  --text-muted:       var(--neutral-500);
+  --text-subtle:      var(--neutral-400);
+  --text-on-brand:    var(--color-white);
+  --text-on-dark:     var(--neutral-50);
+
+  --border-subtle:    var(--neutral-200);
+  --border-default:   var(--neutral-300);
+  --border-strong:    var(--neutral-400);
+
+  --ring-focus:       var(--blue-500);
+
+  /* Status (mapped onto brand palette) */
+  --success:          var(--green-600);
+  --success-soft:     var(--green-50);
+  --info:             var(--blue-500);
+  --info-soft:        var(--blue-50);
+  --warning:          var(--yellow-600);
+  --warning-soft:     var(--yellow-50);
+  --danger:           var(--cherry-500);
+  --danger-soft:      var(--cherry-50);
+}

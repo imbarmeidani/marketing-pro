@@ -1,0 +1,61 @@
+/* ============================================================
+   Improov Homes — Base element styling & helpers
+   Light, optional resets. White-dominant backgrounds.
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--text-body);
+  background: var(--bg-page);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  color: var(--text-strong);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--weight-bold);
+  margin: 0 0 var(--space-4);
+}
+h1 { font-size: var(--text-3xl); }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-xl); }
+h4 { font-size: var(--text-lg); }
+
+p { margin: 0 0 var(--space-4); text-wrap: pretty; }
+
+a { color: var(--blue-600); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- Brand utility helpers ---- */
+.ih-eyebrow {
+  font-family: var(--font-ui);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--brand);
+}
+.ih-script {
+  font-family: var(--font-script);
+  font-weight: 400;
+  color: var(--brand);
+  line-height: 1;
+}
+.ih-highlight {
+  color: var(--brand);
+}
+/* The brand's signature "marker" underline behind key words */
+.ih-mark {
+  background-image: linear-gradient(120deg, var(--yellow-300) 0%, var(--yellow-300) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 38%;
+  background-position: 0 88%;
+  padding: 0 0.08em;
+}

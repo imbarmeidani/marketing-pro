@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/tokens/colors.css">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/tokens/typography.css">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/tokens/elevation.css">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/tokens/base.css">
+<link rel="stylesheet" href="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/styles.css">
+<script src="_ds/improov-homes-design-system-7386074c-57ff-4377-bac4-fb255d319522/_ds_bundle.js"></script>
+<script src="image-slot.js"></script>
+<style>
+  body { margin: 0; }
+  a { text-decoration: none; }
+</style>
+</helmet>
+<div style="min-height:100vh;background:var(--neutral-100);font-family:var(--font-body);color:var(--text-body);padding:56px 40px 96px;">
+<div style="max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:80px;">
+
+<!-- ============ COVER ============ -->
+<section data-screen-label="Cover" style="position:relative;overflow:hidden;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);padding:64px 64px 60px;">
+  <div style="position:absolute;top:-30px;right:-20px;width:420px;height:340px;pointer-events:none;">
+    <div style="position:absolute;top:70px;left:150px;width:74px;height:74px;border-radius:50%;background:var(--color-cherry);"></div>
+    <div style="position:absolute;top:34px;left:230px;width:52px;height:52px;border-radius:50%;background:var(--color-purple);"></div>
+    <div style="position:absolute;top:120px;left:244px;width:64px;height:64px;border-radius:50%;background:var(--color-blue);"></div>
+    <div style="position:absolute;top:24px;left:118px;width:40px;height:40px;border-radius:50%;background:var(--color-yellow);"></div>
+    <div style="position:absolute;top:150px;left:150px;width:46px;height:46px;border-radius:50%;background:var(--color-green);"></div>
+    <div style="position:absolute;top:96px;left:330px;width:38px;height:38px;border-radius:50%;background:var(--color-orange);"></div>
+    <div style="position:absolute;top:186px;left:250px;width:30px;height:30px;border-radius:50%;background:var(--color-cherry);"></div>
+    <div style="position:absolute;top:64px;left:308px;width:24px;height:24px;border-radius:50%;background:var(--color-yellow);"></div>
+    <div style="position:absolute;top:12px;left:196px;width:26px;height:26px;border-radius:50%;background:var(--color-blue);"></div>
+    <div style="position:absolute;top:210px;left:200px;width:20px;height:20px;border-radius:50%;background:var(--color-purple);"></div>
+    <div style="position:absolute;top:154px;left:340px;width:18px;height:18px;border-radius:50%;background:var(--color-green);"></div>
+    <div style="position:absolute;top:246px;left:250px;width:14px;height:14px;border-radius:50%;background:var(--color-yellow);"></div>
+  </div>
+  <img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:76px;width:auto;display:block;margin-bottom:38px;">
+  <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--brand);margin-bottom:16px;">Improov Homes · Design System</div>
+  <h1 style="font-family:var(--font-display);font-weight:900;font-size:68px;line-height:0.96;letter-spacing:-0.025em;color:var(--text-strong);margin:0;max-width:760px;">Brand Extension <span style="font-family:var(--font-script);font-weight:400;color:var(--brand);font-size:0.92em;">Pack</span></h1>
+  <p style="font-size:19px;line-height:1.6;color:var(--text-muted);max-width:600px;margin:22px 0 40px;">Our website look and feel, plus the marketing pieces we make every day — captured as reusable, on-brand components. Everything here is built on the Improov tokens: same color, type, and rounded, friendly forms.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:12px;">
+    <a href="#foundations" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-pill);padding:10px 18px;">01 · Website style</a>
+    <a href="#components" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-pill);padding:10px 18px;">02 · Web components</a>
+    <a href="#marketing" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-pill);padding:10px 18px;">03 · Seminar postcards</a>
+    <a href="#flyer" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-pill);padding:10px 18px;">04 · Listing flyer</a>
+    <a href="#email" style="display:inline-flex;align-items:center;gap:8px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);background:var(--bg-subtle);border:1px solid var(--border-subtle);border-radius:var(--radius-pill);padding:10px 18px;">05 · Email templates</a>
+  </div>
+</section>
+
+<!-- ============ 01 FOUNDATIONS ============ -->
+<section id="foundations" data-screen-label="Foundations">
+  <div style="margin:0 0 32px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand);margin-bottom:10px;">01 · Foundations</div>
+    <h2 style="font-family:var(--font-display);font-weight:900;font-size:46px;line-height:1.0;letter-spacing:-0.02em;color:var(--text-strong);margin:0;">Website style reference</h2>
+    <p style="font-size:17px;color:var(--text-muted);max-width:640px;margin:12px 0 0;line-height:1.6;">The palette, type, and motif that carry across improovhomes.com and every piece below. White leads; color punctuates; corners stay round.</p>
+  </div>
+
+  <!-- palette -->
+  <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:32px;margin-bottom:24px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:20px;">Palette</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--color-cherry);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Cherry</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#CB0C4F · primary action</div></div>
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--color-blue);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Blue</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#158BCF</div></div>
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--color-green);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Green</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#1FB050</div></div>
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--color-yellow);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Yellow</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#FBB630</div></div>
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--color-orange);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Orange</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#F17030</div></div>
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--color-purple);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Purple</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#6562A8</div></div>
+      <div><div style="height:88px;border-radius:var(--radius-md);background:var(--neutral-700);box-shadow:var(--shadow-xs);"></div><div style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-strong);margin-top:10px;">Ink navy</div><div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);">#36404F · canonical</div></div>
+      <div style="border:1px dashed var(--border-default);border-radius:var(--radius-md);padding:14px;display:flex;flex-direction:column;justify-content:center;"><div style="font-family:var(--font-ui);font-weight:700;font-size:13px;color:var(--text-strong);">Navy note</div><div style="font-size:12px;color:var(--text-muted);line-height:1.5;margin-top:4px;">The live site uses #3b4d65. Standardize on the DS ink <b>#36404F</b> going forward.</div></div>
+    </div>
+  </div>
+
+  <!-- type + motif -->
+  <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:24px;">
+    <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:32px;">
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:22px;">Type in use</div>
+      <div style="border-bottom:1px solid var(--border-subtle);padding-bottom:18px;margin-bottom:18px;">
+        <div style="font-family:var(--font-display);font-weight:900;font-size:42px;line-height:1.0;letter-spacing:-0.025em;color:var(--text-strong);">Own the home of your dreams.</div>
+        <div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:8px;">League Spartan · 900 · display headlines</div>
+      </div>
+      <div style="border-bottom:1px solid var(--border-subtle);padding-bottom:18px;margin-bottom:18px;">
+        <div style="font-family:var(--font-script);font-weight:400;font-size:40px;color:var(--brand);line-height:1;">The Joy of Becoming a Homeowner</div>
+        <div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:8px;">Jenna Sue · script accent · highlights only</div>
+      </div>
+      <div style="border-bottom:1px solid var(--border-subtle);padding-bottom:18px;margin-bottom:18px;">
+        <div style="font-family:var(--font-body);font-size:16px;line-height:1.65;color:var(--text-body);max-width:520px;">Most people are just like you. There is no magic, just math — we teach you how to rework your mindset and take the first step toward owning your home.</div>
+        <div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:8px;">Open Sans · 400/700 · body copy</div>
+      </div>
+      <div>
+        <div style="font-family:var(--font-ui);font-weight:700;font-size:34px;color:var(--text-strong);letter-spacing:0.01em;">$24,500 · 724 · $2,900/mo</div>
+        <div style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-top:8px;">Nexa · UI numerals · prices & product</div>
+      </div>
+    </div>
+    <div style="position:relative;overflow:hidden;background:var(--neutral-800);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:32px;color:#fff;">
+      <div style="position:absolute;width:150px;height:150px;border-radius:50%;background:var(--color-cherry);top:-40px;right:-30px;opacity:0.9;"></div>
+      <div style="position:absolute;width:96px;height:96px;border-radius:50%;background:var(--color-blue);bottom:-24px;right:80px;opacity:0.9;"></div>
+      <div style="position:absolute;width:60px;height:60px;border-radius:50%;background:var(--color-yellow);bottom:40px;right:-10px;opacity:0.9;"></div>
+      <div style="position:relative;">
+        <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:16px;">Geometric motif</div>
+        <div style="font-family:var(--font-display);font-weight:900;font-size:26px;line-height:1.1;letter-spacing:-0.02em;max-width:220px;">Bauhaus dots in brand color — the signature texture.</div>
+        <div style="font-size:14px;color:rgba(255,255,255,0.75);line-height:1.6;margin-top:14px;max-width:240px;">Circles and half-circles bleeding off an edge. On dark sections, let them float; on white, cluster them like the roof of the mark.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 WEB COMPONENTS ============ -->
+<section id="components" data-screen-label="Web components">
+  <div style="margin:0 0 32px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand);margin-bottom:10px;">02 · Web components</div>
+    <h2 style="font-family:var(--font-display);font-weight:900;font-size:46px;line-height:1.0;letter-spacing:-0.02em;color:var(--text-strong);margin:0;">Pulled from improovhomes.com</h2>
+    <p style="font-size:17px;color:var(--text-muted);max-width:640px;margin:12px 0 0;line-height:1.6;">The hero, listing card, testimonial, and footer — rebuilt on the design system so they're ready to reuse anywhere.</p>
+  </div>
+
+  <!-- HERO -->
+  <div style="margin-bottom:24px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Hero band</div>
+    <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;">
+      <div style="display:grid;grid-template-columns:1.05fr 0.95fr;gap:40px;align-items:center;padding:56px 56px;">
+        <div>
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--brand);margin-bottom:18px;">The joy of becoming a homeowner</div>
+          <h3 style="font-family:var(--font-display);font-weight:900;font-size:56px;line-height:0.98;letter-spacing:-0.025em;color:var(--text-strong);margin:0 0 20px;">Your first home is <span style="font-family:var(--font-script);font-weight:400;color:var(--brand);font-size:0.9em;">our mission</span>.</h3>
+          <p style="font-size:18px;line-height:1.6;color:var(--text-muted);max-width:440px;margin:0 0 30px;">A boutique real-estate agency for first-time buyers. We educate you, guide you, and show you the path to home ownership in New Jersey.</p>
+          <div style="display:flex;gap:14px;align-items:center;">
+            <x-import component-from-global-scope="ImproovHomesDesignSystem_738607.Button" variant="primary" size="lg" hint-size="150px,54px">Contact us</x-import>
+            <x-import component-from-global-scope="ImproovHomesDesignSystem_738607.Button" variant="outline" size="lg" hint-size="150px,54px">Book a call</x-import>
+          </div>
+        </div>
+        <div style="position:relative;height:420px;">
+          <div style="position:absolute;width:180px;height:180px;border-radius:50%;background:var(--color-yellow);top:0;right:40px;"></div>
+          <div style="position:absolute;width:120px;height:120px;border-radius:50%;background:var(--color-blue);bottom:20px;left:0;"></div>
+          <div style="position:absolute;width:70px;height:70px;border-radius:50%;background:var(--color-green);top:30px;left:20px;"></div>
+          <image-slot id="hero-home" style="position:absolute;width:300px;height:360px;right:0;top:30px;box-shadow:var(--shadow-lg);border-radius:var(--radius-xl);" shape="rounded" radius="28" placeholder="Drop a home / client photo"></image-slot>
+          <div style="position:absolute;right:24px;bottom:8px;display:inline-flex;align-items:center;gap:8px;background:var(--color-green);color:#fff;font-family:var(--font-ui);font-weight:700;font-size:15px;border-radius:var(--radius-pill);padding:12px 20px;box-shadow:var(--shadow-md);z-index:2;">100% financing available</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LISTINGS -->
+  <div style="margin-bottom:24px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Listing card · featured listings grid</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;">
+      <sc-for list="{{ listings }}" as="item" hint-placeholder-count="3">
+        <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;">
+          <div style="position:relative;">
+            <image-slot id="{{ item.slot }}" style="width:100%;height:190px;display:block;" shape="rect" placeholder="Drop listing photo"></image-slot>
+            <span style="position:absolute;top:14px;left:14px;display:inline-flex;align-items:center;font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.02em;color:#fff;background:{{ item.accent }};border-radius:var(--radius-pill);padding:5px 12px;box-shadow:var(--shadow-sm);">{{ item.status }}</span>
+          </div>
+          <div style="padding:18px 20px 20px;">
+            <div style="display:flex;align-items:baseline;gap:2px;">
+              <span style="font-family:var(--font-ui);font-weight:700;font-size:26px;color:var(--text-strong);">{{ item.price }}</span>
+              <span style="font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-muted);">{{ item.unit }}</span>
+            </div>
+            <div style="font-family:var(--font-body);font-weight:700;font-size:15px;color:var(--text-body);margin-top:6px;">{{ item.address }}</div>
+            <div style="font-size:14px;color:var(--text-muted);">{{ item.city }}</div>
+            <div style="display:flex;gap:16px;margin-top:14px;padding-top:14px;border-top:1px solid var(--border-subtle);font-family:var(--font-ui);font-weight:700;font-size:13px;color:var(--text-muted);">
+              <span>{{ item.beds }} bd</span>
+              <span>{{ item.baths }} ba</span>
+              <span>{{ item.extra }}</span>
+            </div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
+  <!-- TESTIMONIAL + FOOTER -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;">
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Testimonial</div>
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:30px;border-top:5px solid var(--color-yellow);">
+        <div style="color:var(--color-yellow);font-size:20px;letter-spacing:2px;margin-bottom:16px;">★★★★★</div>
+        <p style="font-family:var(--font-body);font-size:17px;line-height:1.6;color:var(--text-body);margin:0 0 22px;">"Roi and Imbar were patient, professional, and helpful from the very beginning. They made finding a home easy and comforting — and truly cared about our family."</p>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div style="width:46px;height:46px;border-radius:50%;background:var(--color-purple);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--font-ui);font-weight:700;font-size:17px;">AA</div>
+          <div>
+            <div style="font-family:var(--font-ui);font-weight:700;font-size:15px;color:var(--text-strong);">Alexis Arias</div>
+            <div style="font-size:13px;color:var(--text-muted);">Verified Google review</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Footer</div>
+      <div style="position:relative;overflow:hidden;background:var(--neutral-800);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:32px;color:var(--text-on-dark);">
+        <div style="position:absolute;width:120px;height:120px;border-radius:50%;background:var(--color-cherry);top:-40px;right:-30px;opacity:0.85;"></div>
+        <div style="position:relative;">
+          <div style="display:inline-flex;background:#fff;border-radius:var(--radius-md);padding:10px 14px;margin-bottom:18px;"><img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:40px;width:auto;display:block;"></div>
+          <p style="font-size:14px;color:rgba(255,255,255,0.72);line-height:1.6;margin:0 0 20px;max-width:300px;">This isn't just a job, it's our life. We wake up focused on your goals and eager to make your life easier.</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;font-size:14px;">
+            <div style="display:flex;flex-direction:column;gap:6px;">
+              <span style="color:rgba(255,255,255,0.55);">105 Floyd Avenue</span>
+              <span style="color:rgba(255,255,255,0.55);">Bloomfield, NJ 07003</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px;">
+              <span style="font-family:var(--font-ui);font-weight:700;color:#fff;">973-743-9333</span>
+              <span style="color:rgba(255,255,255,0.55);">info@improovhomes.com</span>
+            </div>
+          </div>
+          <div style="display:flex;gap:7px;margin-top:22px;">
+            <span style="width:11px;height:11px;border-radius:50%;background:var(--color-yellow);"></span>
+            <span style="width:11px;height:11px;border-radius:50%;background:var(--color-orange);"></span>
+            <span style="width:11px;height:11px;border-radius:50%;background:var(--color-cherry);"></span>
+            <span style="width:11px;height:11px;border-radius:50%;background:var(--color-purple);"></span>
+            <span style="width:11px;height:11px;border-radius:50%;background:var(--color-blue);"></span>
+            <span style="width:11px;height:11px;border-radius:50%;background:var(--color-green);"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 MARKETING · POSTCARDS ============ -->
+<section id="marketing" data-screen-label="Seminar postcards">
+  <div style="margin:0 0 32px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand);margin-bottom:10px;">03 · Marketing</div>
+    <h2 style="font-family:var(--font-display);font-weight:900;font-size:46px;line-height:1.0;letter-spacing:-0.02em;color:var(--text-strong);margin:0;">Seminar postcard</h2>
+    <p style="font-size:17px;color:var(--text-muted);max-width:640px;margin:12px 0 0;line-height:1.6;">Front and back, rebuilt as an editable template. Swap the seminar questions, phone, and photo; the dot motif and layout stay on-brand. Print at 7&#8202;&times;&#8202;5&#8202;in.</p>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:32px;">
+
+    <!-- FRONT -->
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Front</div>
+      <div style="position:relative;width:700px;height:462px;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);overflow:hidden;">
+        <!-- dot cluster -->
+        <div style="position:absolute;top:-10px;right:-10px;width:300px;height:250px;pointer-events:none;">
+          <div style="position:absolute;top:44px;left:110px;width:58px;height:58px;border-radius:50%;background:var(--color-cherry);"></div>
+          <div style="position:absolute;top:20px;left:176px;width:40px;height:40px;border-radius:50%;background:var(--color-purple);"></div>
+          <div style="position:absolute;top:86px;left:186px;width:48px;height:48px;border-radius:50%;background:var(--color-blue);"></div>
+          <div style="position:absolute;top:14px;left:80px;width:30px;height:30px;border-radius:50%;background:var(--color-yellow);"></div>
+          <div style="position:absolute;top:110px;left:118px;width:34px;height:34px;border-radius:50%;background:var(--color-green);"></div>
+          <div style="position:absolute;top:68px;left:238px;width:30px;height:30px;border-radius:50%;background:var(--color-orange);"></div>
+          <div style="position:absolute;top:138px;left:186px;width:24px;height:24px;border-radius:50%;background:var(--color-cherry);"></div>
+          <div style="position:absolute;top:40px;left:238px;width:18px;height:18px;border-radius:50%;background:var(--color-yellow);"></div>
+          <div style="position:absolute;top:0px;left:150px;width:20px;height:20px;border-radius:50%;background:var(--color-blue);"></div>
+          <div style="position:absolute;top:158px;left:150px;width:16px;height:16px;border-radius:50%;background:var(--color-purple);"></div>
+          <div style="position:absolute;top:112px;left:250px;width:14px;height:14px;border-radius:50%;background:var(--color-green);"></div>
+        </div>
+        <!-- header -->
+        <div style="display:flex;align-items:center;gap:18px;padding:26px 32px 0;">
+          <img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:62px;width:auto;display:block;">
+          <div style="font-family:var(--font-body);font-weight:300;font-size:18px;line-height:1.25;color:var(--text-muted);">The Joy of<br>Becoming a Homeowner</div>
+        </div>
+        <!-- headline -->
+        <div style="padding:20px 32px 0;">
+          <h3 style="font-family:var(--font-display);font-weight:900;font-size:38px;line-height:0.98;letter-spacing:-0.02em;color:var(--text-strong);margin:0;">Free First Time<br>Homebuyer Seminar</h3>
+          <div style="width:64px;height:5px;background:var(--color-orange);border-radius:var(--radius-pill);margin-top:14px;"></div>
+        </div>
+        <!-- bullets -->
+        <div style="padding:20px 32px 0;display:flex;flex-direction:column;gap:11px;">
+          <div style="display:flex;align-items:center;gap:11px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#CB0C4F" stroke-width="2" style="flex:none;"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg><span style="font-family:var(--font-body);font-weight:700;font-size:15px;color:var(--text-strong);">What do I need to buy a house?</span></div>
+          <div style="display:flex;align-items:center;gap:11px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#CB0C4F" stroke-width="2" style="flex:none;"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg><span style="font-family:var(--font-body);font-weight:700;font-size:15px;color:var(--text-strong);">How do I qualify for a 1st Time Home Owner Grant?</span></div>
+          <div style="display:flex;align-items:center;gap:11px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#CB0C4F" stroke-width="2" style="flex:none;"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg><span style="font-family:var(--font-body);font-weight:700;font-size:15px;color:var(--text-strong);">What is GOOD CREDIT and how do I get it?</span></div>
+          <div style="display:flex;align-items:center;gap:11px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#CB0C4F" stroke-width="2" style="flex:none;"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg><span style="font-family:var(--font-body);font-weight:700;font-size:15px;color:var(--text-strong);">These questions answered and more!</span></div>
+        </div>
+        <!-- rsvp -->
+        <div style="padding:18px 32px 0;">
+          <span style="display:inline-flex;align-items:center;font-family:var(--font-ui);font-weight:700;font-size:16px;color:#fff;background:var(--brand);border-radius:var(--radius-md);padding:11px 22px;box-shadow:var(--shadow-brand);">RSVP today — (973) 743-9333</span>
+        </div>
+        <!-- green circle -->
+        <div style="position:absolute;right:36px;bottom:56px;width:132px;height:132px;border-radius:50%;background:var(--color-green);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--font-display);font-weight:900;font-size:20px;line-height:1.05;box-shadow:var(--shadow-md);">100%<br>Financing<br>Available</div>
+        <!-- footer strip -->
+        <div style="position:absolute;left:0;right:0;bottom:0;height:44px;display:flex;align-items:center;justify-content:center;gap:14px;border-top:1px solid var(--border-subtle);background:var(--surface-card);">
+          <div style="display:flex;gap:6px;">
+            <span style="width:9px;height:9px;border-radius:50%;background:var(--color-yellow);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-orange);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-purple);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-blue);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-green);"></span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;font-family:var(--font-ui);font-weight:700;font-size:15px;color:var(--text-strong);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#158BCF" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>www.improovhomes.com</div>
+          <div style="display:flex;gap:6px;">
+            <span style="width:9px;height:9px;border-radius:50%;background:var(--color-green);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-blue);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-purple);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-orange);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-cherry);"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACK -->
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Back</div>
+      <div style="position:relative;width:700px;height:462px;background:var(--neutral-200);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);overflow:hidden;">
+        <image-slot id="postcard-storefront" style="position:absolute;inset:0;width:100%;height:100%;filter:grayscale(1);" shape="rect" placeholder="Drop storefront photo (shown greyscale)"></image-slot>
+        <div style="position:absolute;inset:0;background:rgba(246,247,249,0.35);"></div>
+        <!-- yellow -->
+        <div style="position:absolute;top:22px;left:24px;width:138px;height:138px;border-radius:50%;background:var(--color-yellow);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--font-display);font-weight:900;font-size:20px;line-height:1.05;box-shadow:var(--shadow-md);">Tired of<br>Paying<br>Rent?</div>
+        <!-- orange -->
+        <div style="position:absolute;top:158px;left:54px;width:150px;height:150px;border-radius:50%;background:var(--color-orange);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--font-display);font-weight:900;font-size:19px;line-height:1.08;box-shadow:var(--shadow-md);padding:10px;box-sizing:border-box;">Your<br>Landlord<br>Doesn't Fix<br>Anything?</div>
+        <!-- cherry -->
+        <div style="position:absolute;top:158px;left:214px;width:150px;height:150px;border-radius:50%;background:var(--color-cherry);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--font-display);font-weight:900;font-size:19px;line-height:1.08;box-shadow:var(--shadow-md);padding:10px;box-sizing:border-box;">Don't Want<br>to Have to<br>Move Again?</div>
+        <!-- purple -->
+        <div style="position:absolute;top:56px;right:22px;width:308px;height:308px;border-radius:50%;background:var(--color-purple);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--font-display);font-weight:700;font-size:21px;line-height:1.22;box-shadow:var(--shadow-lg);padding:44px;box-sizing:border-box;">Attend Improov Homes <b style="font-weight:900;">Free First Time Homebuyer Seminar</b> and Learn How You Can Purchase Your First Home With No Money Down!</div>
+        <!-- address bar -->
+        <div style="position:absolute;left:0;right:0;bottom:0;height:44px;background:var(--surface-card);display:flex;align-items:center;justify-content:center;gap:14px;">
+          <div style="display:flex;gap:6px;"><span style="width:9px;height:9px;border-radius:50%;background:var(--color-yellow);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-orange);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-purple);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-blue);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-green);"></span></div>
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:15px;color:var(--text-strong);">105 Floyd Avenue, Bloomfield, NJ 07003</div>
+          <div style="display:flex;gap:6px;"><span style="width:9px;height:9px;border-radius:50%;background:var(--color-green);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-blue);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-purple);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-orange);"></span><span style="width:9px;height:9px;border-radius:50%;background:var(--color-cherry);"></span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 04 LISTING FLYER ============ -->
+<section id="flyer" data-screen-label="Listing flyer">
+  <div style="margin:0 0 32px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand);margin-bottom:10px;">04 · Marketing</div>
+    <h2 style="font-family:var(--font-display);font-weight:900;font-size:46px;line-height:1.0;letter-spacing:-0.02em;color:var(--text-strong);margin:0;">Listing flyer</h2>
+    <p style="font-size:17px;color:var(--text-muted);max-width:640px;margin:12px 0 0;line-height:1.6;">A one-page open-house / just-listed sheet. Drop in photos, edit the price and features, print at 8.5&#8202;&times;&#8202;11&#8202;in.</p>
+  </div>
+
+  <div style="width:850px;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);overflow:hidden;">
+    <!-- header -->
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:26px 34px;">
+      <img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:54px;width:auto;display:block;">
+      <span style="display:inline-flex;align-items:center;font-family:var(--font-ui);font-weight:700;font-size:14px;letter-spacing:0.06em;text-transform:uppercase;color:#fff;background:var(--brand);border-radius:var(--radius-pill);padding:9px 20px;box-shadow:var(--shadow-brand);">Just listed · For sale</span>
+    </div>
+    <!-- hero -->
+    <image-slot id="flyer-hero" style="width:100%;height:380px;display:block;" shape="rect" placeholder="Drop the main listing photo"></image-slot>
+    <!-- body -->
+    <div style="padding:32px 34px 0;">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px;">
+        <div>
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:52px;line-height:1;color:var(--text-strong);">$499,000</div>
+          <div style="font-family:var(--font-body);font-weight:700;font-size:19px;color:var(--text-body);margin-top:10px;">544 S 11th Street</div>
+          <div style="font-size:16px;color:var(--text-muted);">Newark, NJ 07108</div>
+        </div>
+        <div style="display:flex;gap:26px;padding:14px 4px;">
+          <div style="text-align:center;"><div style="font-family:var(--font-ui);font-weight:700;font-size:28px;color:var(--text-strong);">4</div><div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-muted);">Beds</div></div>
+          <div style="width:1px;background:var(--border-subtle);"></div>
+          <div style="text-align:center;"><div style="font-family:var(--font-ui);font-weight:700;font-size:28px;color:var(--text-strong);">2</div><div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-muted);">Baths</div></div>
+          <div style="width:1px;background:var(--border-subtle);"></div>
+          <div style="text-align:center;"><div style="font-family:var(--font-ui);font-weight:700;font-size:28px;color:var(--text-strong);">2</div><div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-muted);">Units</div></div>
+          <div style="width:1px;background:var(--border-subtle);"></div>
+          <div style="text-align:center;"><div style="font-family:var(--font-ui);font-weight:700;font-size:28px;color:var(--text-strong);">2,400</div><div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-muted);">Sq Ft</div></div>
+        </div>
+      </div>
+      <p style="font-size:16px;line-height:1.65;color:var(--text-body);margin:22px 0 24px;max-width:760px;">A newly renovated two-family home in the heart of Newark — move-in ready with modern kitchens, updated baths, and great rental income potential. Perfect for a first-time buyer looking to live in one unit and rent the other. Ask us about 100% financing.</p>
+      <!-- thumbnails -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+        <image-slot id="flyer-thumb-1" style="width:100%;height:170px;display:block;border-radius:var(--radius-md);" shape="rounded" radius="12" placeholder="Interior photo"></image-slot>
+        <image-slot id="flyer-thumb-2" style="width:100%;height:170px;display:block;border-radius:var(--radius-md);" shape="rounded" radius="12" placeholder="Interior photo"></image-slot>
+      </div>
+      <!-- features -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;margin:26px 0 0;">
+        <div style="display:flex;align-items:center;gap:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FB050" stroke-width="2.4" style="flex:none;"><path d="M20 6 9 17l-5-5"/></svg><span style="font-size:15px;color:var(--text-body);">Newly renovated kitchen</span></div>
+        <div style="display:flex;align-items:center;gap:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FB050" stroke-width="2.4" style="flex:none;"><path d="M20 6 9 17l-5-5"/></svg><span style="font-size:15px;color:var(--text-body);">Central heat &amp; air</span></div>
+        <div style="display:flex;align-items:center;gap:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FB050" stroke-width="2.4" style="flex:none;"><path d="M20 6 9 17l-5-5"/></svg><span style="font-size:15px;color:var(--text-body);">Finished basement</span></div>
+        <div style="display:flex;align-items:center;gap:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FB050" stroke-width="2.4" style="flex:none;"><path d="M20 6 9 17l-5-5"/></svg><span style="font-size:15px;color:var(--text-body);">Off-street parking</span></div>
+        <div style="display:flex;align-items:center;gap:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FB050" stroke-width="2.4" style="flex:none;"><path d="M20 6 9 17l-5-5"/></svg><span style="font-size:15px;color:var(--text-body);">Steps from NJ Transit</span></div>
+        <div style="display:flex;align-items:center;gap:10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1FB050" stroke-width="2.4" style="flex:none;"><path d="M20 6 9 17l-5-5"/></svg><span style="font-size:15px;color:var(--text-body);">Move-in ready</span></div>
+      </div>
+    </div>
+    <!-- agent band -->
+    <div style="position:relative;overflow:hidden;background:var(--neutral-800);margin-top:30px;padding:26px 34px;display:flex;align-items:center;justify-content:space-between;gap:20px;">
+      <div style="position:absolute;width:130px;height:130px;border-radius:50%;background:var(--color-cherry);top:-50px;right:120px;opacity:0.85;"></div>
+      <div style="position:relative;">
+        <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:6px;">Presented by</div>
+        <div style="font-family:var(--font-display);font-weight:900;font-size:24px;color:#fff;letter-spacing:-0.01em;">Imbar Meidani &amp; Roi Vana</div>
+        <div style="font-size:14px;color:rgba(255,255,255,0.7);margin-top:4px;">Improov Homes · 105 Floyd Avenue, Bloomfield, NJ 07003</div>
+      </div>
+      <div style="position:relative;text-align:right;">
+        <div style="font-family:var(--font-ui);font-weight:700;font-size:22px;color:#fff;">973-743-9333</div>
+        <div style="font-size:14px;color:rgba(255,255,255,0.7);margin-top:2px;">info@improovhomes.com</div>
+        <div style="display:flex;gap:6px;justify-content:flex-end;margin-top:12px;"><span style="width:10px;height:10px;border-radius:50%;background:var(--color-yellow);"></span><span style="width:10px;height:10px;border-radius:50%;background:var(--color-orange);"></span><span style="width:10px;height:10px;border-radius:50%;background:var(--color-cherry);"></span><span style="width:10px;height:10px;border-radius:50%;background:var(--color-purple);"></span><span style="width:10px;height:10px;border-radius:50%;background:var(--color-blue);"></span><span style="width:10px;height:10px;border-radius:50%;background:var(--color-green);"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 EMAIL TEMPLATES ============ -->
+<section id="email" data-screen-label="Email templates">
+  <div style="margin:0 0 32px;">
+    <div style="font-family:var(--font-ui);font-weight:700;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--brand);margin-bottom:10px;">05 · Marketing</div>
+    <h2 style="font-family:var(--font-display);font-weight:900;font-size:46px;line-height:1.0;letter-spacing:-0.02em;color:var(--text-strong);margin:0;">Email templates</h2>
+    <p style="font-size:17px;color:var(--text-muted);max-width:640px;margin:12px 0 0;line-height:1.6;">Three ready-to-send layouts at 600&#8202;px wide: a new listing for sale, a new rental, and a weekly rentals roundup. Same header, footer, and button system across all three.</p>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start;">
+
+    <!-- EMAIL 1: FOR SALE -->
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">New listing · for sale</div>
+      <div style="width:600px;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;">
+        <div style="display:flex;justify-content:center;padding:22px;border-bottom:1px solid var(--border-subtle);"><img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:40px;width:auto;"></div>
+        <image-slot id="email1-hero" style="width:100%;height:300px;display:block;" shape="rect" placeholder="Drop listing photo"></image-slot>
+        <div style="padding:30px 34px;">
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--brand);margin-bottom:12px;">Just listed · for sale</div>
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:40px;line-height:1;color:var(--text-strong);">$499,000</div>
+          <div style="font-family:var(--font-body);font-weight:700;font-size:18px;color:var(--text-body);margin-top:10px;">544 S 11th Street · Newark, NJ</div>
+          <div style="display:flex;gap:18px;margin:14px 0 20px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-muted);"><span>4 beds</span><span>·</span><span>2 baths</span><span>·</span><span>2 units</span></div>
+          <p style="font-size:16px;line-height:1.65;color:var(--text-body);margin:0 0 26px;">A newly renovated two-family in Newark — live in one, rent the other. Move-in ready, and we can walk you through 100% financing. Want to see it?</p>
+          <a href="#" style="display:block;text-align:center;font-family:var(--font-ui);font-weight:700;font-size:17px;color:#fff;background:var(--brand);border-radius:var(--radius-md);padding:15px;box-shadow:var(--shadow-brand);">View this home</a>
+          <p style="font-size:15px;color:var(--text-muted);margin:22px 0 0;">Warmly,<br><b style="color:var(--text-strong);">Imbar &amp; Roi</b> · Improov Homes</p>
+        </div>
+        <div style="background:var(--bg-subtle);border-top:1px solid var(--border-subtle);padding:20px 34px;text-align:center;">
+          <div style="display:flex;gap:6px;justify-content:center;margin-bottom:12px;"><span style="width:8px;height:8px;border-radius:50%;background:var(--color-yellow);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-orange);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-cherry);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-purple);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-blue);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-green);"></span></div>
+          <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">Improov Homes · 105 Floyd Avenue, Bloomfield, NJ 07003 · 973-743-9333<br><span style="color:var(--text-subtle);">You're receiving this because you signed up for listing alerts. Unsubscribe</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EMAIL 2: FOR RENT -->
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">New listing · for rent</div>
+      <div style="width:600px;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;">
+        <div style="display:flex;justify-content:center;padding:22px;border-bottom:1px solid var(--border-subtle);"><img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:40px;width:auto;"></div>
+        <image-slot id="email2-hero" style="width:100%;height:300px;display:block;" shape="rect" placeholder="Drop rental photo"></image-slot>
+        <div style="padding:30px 34px;">
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-blue);margin-bottom:12px;">New rental · available now</div>
+          <div style="display:flex;align-items:baseline;gap:3px;"><span style="font-family:var(--font-ui);font-weight:700;font-size:40px;line-height:1;color:var(--text-strong);">$2,900</span><span style="font-family:var(--font-ui);font-weight:700;font-size:18px;color:var(--text-muted);">/mo</span></div>
+          <div style="font-family:var(--font-body);font-weight:700;font-size:18px;color:var(--text-body);margin-top:10px;">1057 Bond Street · #2 · Newark, NJ</div>
+          <div style="display:flex;gap:18px;margin:14px 0 20px;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--text-muted);"><span>3 beds</span><span>·</span><span>1 bath</span><span>·</span><span>1 floor</span></div>
+          <p style="font-size:16px;line-height:1.65;color:var(--text-body);margin:0 0 26px;">A bright, freshly updated 3-bedroom in Newark, available now. No broker fee. Ask us about our rent-to-own path — this one could become your first home.</p>
+          <a href="#" style="display:block;text-align:center;font-family:var(--font-ui);font-weight:700;font-size:17px;color:#fff;background:var(--color-blue);border-radius:var(--radius-md);padding:15px;box-shadow:var(--shadow-sm);">Schedule a tour</a>
+          <p style="font-size:15px;color:var(--text-muted);margin:22px 0 0;">Warmly,<br><b style="color:var(--text-strong);">Imbar &amp; Roi</b> · Improov Homes</p>
+        </div>
+        <div style="background:var(--bg-subtle);border-top:1px solid var(--border-subtle);padding:20px 34px;text-align:center;">
+          <div style="display:flex;gap:6px;justify-content:center;margin-bottom:12px;"><span style="width:8px;height:8px;border-radius:50%;background:var(--color-yellow);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-orange);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-cherry);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-purple);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-blue);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-green);"></span></div>
+          <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">Improov Homes · 105 Floyd Avenue, Bloomfield, NJ 07003 · 973-743-9333<br><span style="color:var(--text-subtle);">You're receiving this because you signed up for listing alerts. Unsubscribe</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EMAIL 3: RENTALS ROUNDUP -->
+    <div>
+      <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-subtle);margin-bottom:12px;">Weekly rentals roundup</div>
+      <div style="width:600px;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;">
+        <div style="display:flex;justify-content:center;padding:22px;border-bottom:1px solid var(--border-subtle);"><img src="assets/logos/improov-logo-primary.png" alt="Improov Homes" style="height:40px;width:auto;"></div>
+        <div style="padding:30px 34px 8px;">
+          <div style="font-family:var(--font-ui);font-weight:700;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-green);margin-bottom:10px;">This week's rentals</div>
+          <h3 style="font-family:var(--font-display);font-weight:900;font-size:30px;line-height:1.02;letter-spacing:-0.02em;color:var(--text-strong);margin:0 0 6px;">Fresh rentals in Newark</h3>
+          <p style="font-size:15px;line-height:1.6;color:var(--text-muted);margin:0 0 4px;">No broker fees. Move-in ready. Here's what just hit the market.</p>
+        </div>
+        <div style="padding:14px 34px 0;display:flex;flex-direction:column;gap:14px;">
+          <sc-for list="{{ rentals }}" as="item" hint-placeholder-count="3">
+            <div style="display:flex;align-items:center;gap:16px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:12px;">
+              <image-slot id="{{ item.slot }}" style="width:120px;height:88px;flex:none;display:block;border-radius:var(--radius-sm);" shape="rounded" radius="8" placeholder="Photo"></image-slot>
+              <div style="flex:1;min-width:0;">
+                <div style="display:flex;align-items:baseline;gap:2px;"><span style="font-family:var(--font-ui);font-weight:700;font-size:22px;color:var(--text-strong);">{{ item.price }}</span><span style="font-family:var(--font-ui);font-weight:700;font-size:13px;color:var(--text-muted);">{{ item.unit }}</span></div>
+                <div style="font-family:var(--font-body);font-weight:700;font-size:14px;color:var(--text-body);margin-top:2px;">{{ item.address }}</div>
+                <div style="font-size:13px;color:var(--text-muted);">{{ item.city }} · {{ item.beds }} bd · {{ item.baths }} ba</div>
+              </div>
+              <a href="#" style="flex:none;font-family:var(--font-ui);font-weight:700;font-size:14px;color:var(--brand);border:2px solid var(--brand);border-radius:var(--radius-sm);padding:8px 16px;">View</a>
+            </div>
+          </sc-for>
+        </div>
+        <div style="padding:22px 34px 30px;">
+          <a href="#" style="display:block;text-align:center;font-family:var(--font-ui);font-weight:700;font-size:17px;color:#fff;background:var(--brand);border-radius:var(--radius-md);padding:15px;box-shadow:var(--shadow-brand);">See all rentals</a>
+        </div>
+        <div style="background:var(--bg-subtle);border-top:1px solid var(--border-subtle);padding:20px 34px;text-align:center;">
+          <div style="display:flex;gap:6px;justify-content:center;margin-bottom:12px;"><span style="width:8px;height:8px;border-radius:50%;background:var(--color-yellow);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-orange);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-cherry);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-purple);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-blue);"></span><span style="width:8px;height:8px;border-radius:50%;background:var(--color-green);"></span></div>
+          <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">Improov Homes · 105 Floyd Avenue, Bloomfield, NJ 07003 · 973-743-9333<br><span style="color:var(--text-subtle);">You're receiving this because you signed up for listing alerts. Unsubscribe</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1320,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  renderVals() {
+    const listings = [
+      { status: 'For Sale', accent: 'var(--color-cherry)', price: '$499,000', unit: '', address: '544 S 11th St', city: 'Newark, NJ', beds: '4', baths: '2', extra: '2 units', slot: 'listing-1' },
+      { status: 'For Rent', accent: 'var(--color-blue)', price: '$2,900', unit: '/mo', address: '1057 Bond St · #2', city: 'Newark, NJ', beds: '3', baths: '1', extra: '1 floor', slot: 'listing-2' },
+      { status: 'Rent to Own', accent: 'var(--color-green)', price: '$3,000', unit: '/mo', address: '1057 Bond St · #2', city: 'Elizabeth, NJ', beds: '3', baths: '2', extra: '2 floors', slot: 'listing-3' },
+    ];
+    const rentals = [
+      { price: '$2,200', unit: '/mo', address: '80 Beverly St · #1', city: 'Newark, NJ', beds: '3', baths: '1', slot: 'rent-1' },
+      { price: '$2,350', unit: '/mo', address: '807 S 14th St · #1', city: 'Newark, NJ', beds: '3', baths: '2', slot: 'rent-2' },
+      { price: '$2,650', unit: '/mo', address: '163 N 9th St · #2', city: 'Newark, NJ', beds: '2', baths: '1', slot: 'rent-3' },
+    ];
+    return { listings, rentals };
+  }
+}
+</script>
+</body>
+</html>
