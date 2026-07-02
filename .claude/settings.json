@@ -104,7 +104,8 @@
       "Bash(grep -rl \"vite/client\" src *.d.ts)",
       "Bash(grep -rn \"png\" src/*.d.ts src/vite-env.d.ts)",
       "Bash(ls src/*.d.ts)",
-      "Bash(git commit -q -m ' *)"
+      "Bash(git commit -q -m ' *)",
+      "Bash(gh api *)"
     ],
     "additionalDirectories": [
       "\\tmp"
